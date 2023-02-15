@@ -4,7 +4,8 @@
   "info": {
     "singularName": "waiting-list",
     "pluralName": "waiting-lists",
-    "displayName": "WaitingList"
+    "displayName": "WaitingList",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,22 @@
         "done",
         "ongoing",
         "waiting"
+      ]
+    },
+    "bulan": {
+      "type": "enumeration",
+      "enum": [
+        "Februari 2023",
+        "Maret 2023",
+        "April 2023",
+        "Mei 2023",
+        "Juni 2023",
+        "Juli 2023",
+        "Agustus 2023",
+        "September 2023",
+        "Oktober 2023",
+        "November 2023",
+        "Desember 2023"
       ]
     }
   }
