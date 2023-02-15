@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "waiting_lists",
+  "info": {
+    "singularName": "waiting-list",
+    "pluralName": "waiting-lists",
+    "displayName": "WaitingList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "kategori": {
+      "type": "enumeration",
+      "enum": [
+        "reguler-single",
+        "reguler-couple",
+        "reguler-trio",
+        "request-single",
+        "request-couple",
+        "request-trio"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "done",
+        "ongoing",
+        "waiting"
+      ]
+    }
+  }
+}

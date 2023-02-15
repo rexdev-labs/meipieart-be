@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "art_portofolios",
+  "info": {
+    "singularName": "art-portofolio",
+    "pluralName": "art-portofolios",
+    "displayName": "ArtPortofolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
