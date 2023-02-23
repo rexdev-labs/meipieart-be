@@ -33,6 +33,36 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "bulan": {
+      "type": "enumeration",
+      "enum": [
+        "Januari 2022",
+        "Februari 2022",
+        "Maret 2022",
+        "April 2022",
+        "Mei 2022",
+        "Juni 2022",
+        "Juli 2022",
+        "Agustus 2022",
+        "September 2022",
+        "Oktober 2022",
+        "November 2022",
+        "Desember 2022",
+        "Januari 2023",
+        "Februari 2023",
+        "Maret 2023",
+        "April 2023",
+        "Mei 2023",
+        "Juni 2023",
+        "Juli 2023",
+        "Agustus 2023",
+        "September 2023",
+        "Oktober 2023",
+        "November 2023",
+        "Desember 2023",
+        "Januari 2024"
+      ]
     }
   }
 }
