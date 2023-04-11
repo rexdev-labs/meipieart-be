@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meichu_products",
+  "info": {
+    "singularName": "meichu-product",
+    "pluralName": "meichu-products",
+    "displayName": "MeichuProduct",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "linkProduct": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Head",
+        "Skin",
+        "Hairstyle",
+        "Eyes",
+        "Eyebrows",
+        "Tops",
+        "Bottoms",
+        "Shoes",
+        "Accessories",
+        "Avatar",
+        "Furniture",
+        "Bundle"
+      ]
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Rating": {
+      "type": "enumeration",
+      "enum": [
+        "General Audience",
+        "Access Pass"
+      ],
+      "default": "General Audience"
+    },
+    "pid": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
