@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meichu_discoveries",
+  "info": {
+    "singularName": "meichu-discovery",
+    "pluralName": "meichu-discoveries",
+    "displayName": "MeichuDiscovery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "igName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
